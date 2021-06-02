@@ -13,7 +13,6 @@ menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
 	padding: 0;
-	border: 0;
 	font-size: 100%;
 	font: inherit;
 	vertical-align: baseline;
@@ -48,6 +47,7 @@ table {
     max-width:100%;
     border:1px solid grey;
 }
+/* General Styles */
 html{
     font-size:62.5%
 } 
@@ -56,12 +56,11 @@ body{
     line-height:1.5;
     color:#4f4f4f;
     font-family: 'Roboto Mono', monospace;
-    background-color: hotpink;
-  }
+      }
 a{
     text-decoration:none;
 }
-hi{
+h1{
     font-family: 'Chelsea Market', cursive;
     font-size:5rem;
 }
@@ -80,15 +79,15 @@ nav a{
     color:white;
 }
 .orange{
-
+    background-color:#FF764E ;
     margin-left:10%;
 }
 .blue{
-
+    background-color:#5ED3EB ;
     margin: 0 24%;
 }
 .yellow{
-
+    background-color:#FFCD69 ;
     margin-right: 10%;
 }
 Top Section Styles
@@ -99,7 +98,7 @@ Top Section Styles
 }
 .left img{
     border-radius: 50%;
-    width:70%;
+    width:25%;
 }
 .left .right{
     display:inline-block;
@@ -107,4 +106,3 @@ Top Section Styles
 .left{
     width:40%
     margin-left: 3%;
-}
