@@ -64,6 +64,10 @@ h1{
     font-family: 'Chelsea Market', cursive;
     font-size:5rem;
 }
+h3{
+    padding:0 12%;
+}
+    
 section{
     padding: 4% 0;
 }
@@ -117,4 +121,16 @@ nav a{
 }    
 .right div{
     position:absolute
+}
+
+.secondSection{
+   padding:0 4% ;
+   margin:0 8% ;
+      background-color:#DDB9A3;
+   color:white;
+}
+
+
+p{
+    margin:3% 0;
 }
