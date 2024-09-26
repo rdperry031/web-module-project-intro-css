@@ -1,0 +1,161 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    max-width:100%;
+    /* border:1px solid grey; */
+}
+/* General Styles */
+html{
+    font-size:62.5%
+} 
+
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    color:#4f4f4f;
+    font-family: 'Roboto Mono', monospace;
+      }
+a{
+    text-decoration:none;
+}
+h1{
+    font-family: 'Chelsea Market', cursive;
+    font-size:5rem;
+}
+h3{
+    padding:0 12%;
+}
+    
+section{
+    padding: 4% 0;
+}
+nav{
+    padding:1% 0;
+    }
+nav a{
+    display:inline-block;
+    padding:1% 0;
+    width:14%;
+    height: 1%;
+    border-radius:10px;
+    text-align:center;
+    color:white;
+}
+.orange{
+    background-color:#FF764E ;
+    margin-left:5%;
+}
+.blue{
+    background-color:#5ED3EB ;
+    margin: 0 24%;
+}
+.yellow{
+    background-color:#FFCD69 ;
+    margin-right: 2%;
+    
+}
+/* Top Section Styles */
+.top{
+    
+   position: :relative;
+}
+
+.left img{
+    border-radius: 50%;
+    width:100%;
+}
+.left, .right{
+    display:inline-block;
+    width:40%;
+}
+.left{
+    width:20%;
+    margin-left: 10%;
+}
+.right{
+    width:50%;
+    margin-left: 3%;
+    position: absolute;
+    top:18%;
+    text-align: center;
+}    
+.right div{
+    position:absolute
+}
+
+.secondSection{
+   padding:0 4% ;
+   margin:0 8% ;
+      background-color:#DDB9A3;
+   color:white;
+}
+
+p{
+    padding: 2%;
+    
+}
+.thirdSection{
+    margin:0 35%;
+        }
+.thirdSection img{
+    width:40%;
+    margin-left: 30%;    
+}    
+figcaption{
+    text-align: center;
+}
+.heroImg{
+    padding:20% 0;
+    background-image:url(assets/footer_img.jpg);
+    background-position: bottom;
+    background-size: cover;
+
+}
+
+footer{
+    background-color:#F9E7DC ;
+}
